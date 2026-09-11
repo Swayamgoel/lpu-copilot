@@ -3,14 +3,24 @@ const places = [
   { id: 2, name: 'Block 34 Kiosks', type: 'food', label: 'Quick Bites', desc: 'High-density engineering block with an active outdoor courtyard and kiosks serving maggi, patties, and tea.', meta: 'Lively', distance: '—', keywords: ['eat', 'food', 'snack', 'coffee', 'tea', 'hangout'] },
   { id: 3, name: 'Block 36', type: 'academic', label: 'Agriculture & Sciences', desc: 'Academic block for sciences with nearby outdoor seating and gathering spaces.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'science', 'work'] },
   { id: 4, name: 'Block 38', type: 'academic', label: 'Academic & Project Space', desc: 'Multi-department academic block with seminar rooms and collaborative project workspaces.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'work', 'project', 'focus'] },
-  { id: 5, name: 'Central Library', type: 'study', label: 'Silent Study', desc: 'Multi-storey silent study environment with dedicated reading halls and digital labs.', meta: 'Very quiet', distance: '—', keywords: ['study', 'peace', 'quiet', 'focus', 'read', 'books', 'work'] },
-  { id: 6, name: 'UniMall (Block 15)', type: 'food', label: 'Shopping & Dining', desc: 'Central shopping and dining complex housing Domino\'s, food courts, and restaurants serving veg and non-veg meals.', meta: 'Lively', distance: '—', keywords: ['eat', 'food', 'meal', 'chicken', 'pizza', 'burger', 'hungry', 'lunch'] },
-  { id: 7, name: 'MB Food Square', type: 'food', label: 'Hostel Dining', desc: 'Dedicated food stalls near the hostels famous for chicken roll, biryani, and late-night non-veg meals.', meta: 'Lively', distance: '—', keywords: ['eat', 'food', 'chicken', 'non-veg', 'dinner', 'hungry', 'roll', 'biryani'] },
+  { id: 5, name: 'Block 37 - Central Library', type: 'study', label: 'Silent Study', desc: 'Multi-storey silent study environment with dedicated reading halls and digital labs.', meta: 'Very quiet', distance: '—', keywords: ['study', 'peace', 'quiet', 'focus', 'read', 'books', 'work'] },
+  { id: 6, name: 'UniMall (Block 15)', type: 'food', label: 'Shopping & Dining', desc: 'Central shopping and dining complex housing Domino\'s, food courts, and restaurants serving veg and non-veg meals.', meta: 'Lively', distance: '—', keywords: ['eat', 'food', 'meal', 'pizza', 'burger', 'hungry', 'lunch'] },
+  { id: 7, name: 'MB Food Square', type: 'food', label: 'Dining', desc: 'Dedicated food stalls near the hostels famous for chicken roll, biryani, and late-night non-veg meals.', meta: 'Lively', distance: '—', keywords: ['eat', 'food', 'chicken', 'non-veg', 'dinner', 'hungry', 'roll', 'biryani'] },
   { id: 8, name: 'Baldev Raj Mittal Unipolis', type: 'social', label: 'Events & Social Hub', desc: 'Massive covered mega-event structure and social crossroads connecting Blocks 30-38.', meta: 'Lively', distance: '—', keywords: ['friend', 'hang', 'social', 'meet', 'group', 'events'] },
   { id: 9, name: 'Shanti Devi Mittal Auditorium', type: 'event', label: 'Auditorium & Events', desc: 'Large indoor ceremonial auditorium for guest lectures, orientations, and cultural fests.', meta: 'Moderate noise', distance: '—', keywords: ['events', 'lecture', 'fest'] },
   { id: 10, name: 'Indoor Sports Complex', type: 'sports', label: 'Sports & Fitness', desc: 'Olympic-grade multi-purpose indoor athletic arena with courts and fitness center.', meta: 'Lively', distance: '—', keywords: ['sports', 'gym', 'play', 'fitness', 'workout', 'active'] },
   { id: 11, name: 'Main Gate (Gate 1-A)', type: 'transit', label: 'Campus Entrance', desc: 'Primary security checkpoint, bus drop-off point, and visitor reception off the highway.', meta: 'Open 24 Hours', distance: '—', keywords: ['gate', 'bus', 'travel', 'entry', 'outside'] },
-  { id: 12, name: 'Campus Gardens', type: 'outdoor', label: 'Parks & Nature', desc: 'Lush green lawns perfect for winter afternoons and outdoor walks.', meta: 'Peaceful', distance: '—', keywords: ['outside', 'outdoor', 'air', 'walk', 'nature', 'park'] }
+  { id: 12, name: 'Campus Gardens', type: 'outdoor', label: 'Parks & Nature', desc: 'Lush green lawns perfect for winter afternoons and outdoor walks.', meta: 'Peaceful', distance: '—', keywords: ['outside', 'outdoor', 'air', 'walk', 'nature', 'park'] },
+  { id: 13, name: 'Block 33', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 14, name: 'Block 34', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 15, name: 'Block 35', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 16, name: 'Block 27', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 17, name: 'Block 28', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 18, name: 'Block 29', type: 'academic', label: 'Computing & Engineering', desc: 'Primary academic hub for computing and engineering with high-capacity computer labs.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'cse', 'labs', 'computers'] },
+  { id: 19, name: 'Block 14 - Mittal School Of Business', type: 'academic', label: 'Commerce', desc: 'Primary academic hub for Commerce students.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'BBA', 'MBA', 'B. com', 'M. com'] },
+  { id: 20, name: 'Block 19', type: 'academic', label: 'School Of Law', desc: 'Primary academic hub for Law students.', meta: 'Moderate noise', distance: '—', keywords: ['study', 'classes', 'LLB', 'LLM'] },
+  { id: 21, name: 'Lovely Bake Studio', type: 'bakery', label: 'Bakery', desc: 'An Innovative Bakery.', meta: 'Moderate noise', distance: '—', keywords: ['Cakes', 'Ladoo', 'Rusk', 'Kaju katli', 'Cookies', 'Namkeen', 'Sweets', 'Green Tea', 'Mocktails', 'Gifting items', 'Biscuits'] },
+  { id: 22, name: 'Lovely Sweets', type: 'bakery', label: 'Bakery', desc: 'Sweet Shop.', meta: 'Moderate noise', distance: '—', keywords: ['Cakes', 'Ladoo', 'Rusk', 'Kaju katli', 'Cookies', 'Namkeen', 'Sweets', 'Green Tea', 'Mocktails', 'Gifting items', 'Biscuits', 'Pinni', 'Barfi', 'Rolls', 'Samosa', 'Kachauri', 'Chaat', 'Panjeeri', 'Gulaab Jamun', 'Rewari', 'Rasgulla', 'Soan Papdi', 'Milk Cake'] }
 ];
 const typeNames = { study: 'Study', food: 'Food & drinks', social: 'Social', outdoor: 'Outdoors' };
 const placeGrid = document.querySelector('#placeGrid');
@@ -47,15 +57,31 @@ function renderPlaces(items = places) {
 
 function showToast(message) { clearTimeout(toastTimer); toast.textContent = message; toast.classList.add('show'); toastTimer = setTimeout(() => toast.classList.remove('show'), 2600); }
 
+// FIXED: real keyword-based search against name, desc, label, type, and each
+// place's keywords array — instead of a hardcoded 4-bucket matcher that only
+// ever recognized "study/food/social/outdoor" queries and fell back to
+// showing every place for anything else (e.g. "gym", "bakery", "law", "bus").
 function searchPlaces(query) {
-  const text = query.toLowerCase();
-  const has = (...terms) => terms.some(term => text.includes(term));
+  const text = query.toLowerCase().trim();
   let filtered = places;
-  if (has('study', 'peace', 'quiet', 'focus', 'read', 'work')) filtered = places.filter(place => place.type === 'study' || place.name === 'Brew & Books');
-  else if (has('eat', 'food', 'meal', 'coffee', 'drink', 'hungry', 'snack')) filtered = places.filter(place => place.type === 'food');
-  else if (has('friend', 'hang', 'social', 'meet', 'group')) filtered = places.filter(place => place.type === 'social' || place.type === 'food');
-  else if (has('outside', 'outdoor', 'air', 'walk', 'nature')) filtered = places.filter(place => place.type === 'outdoor');
-  if (query.trim()) { recentSearches = [query.trim(), ...recentSearches.filter(item => item !== query.trim())].slice(0, 5); localStorage.setItem('lpu-recent', JSON.stringify(recentSearches)); }
+
+  if (text) {
+    filtered = places.filter(place =>
+      place.name.toLowerCase().includes(text) ||
+      place.desc.toLowerCase().includes(text) ||
+      place.label.toLowerCase().includes(text) ||
+      place.type.toLowerCase().includes(text) ||
+      place.keywords.some(keyword =>
+        keyword.toLowerCase().includes(text) || text.includes(keyword.toLowerCase())
+      )
+    );
+  }
+
+  if (query.trim()) {
+    recentSearches = [query.trim(), ...recentSearches.filter(item => item !== query.trim())].slice(0, 5);
+    localStorage.setItem('lpu-recent', JSON.stringify(recentSearches));
+  }
+
   resultsTitle.textContent = query.trim() ? 'Here’s what I found for you' : 'Places that feel right';
   renderPlaces(activeFilter === 'all' ? filtered : filtered.filter(place => place.type === activeFilter));
   document.querySelector('#results').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -80,8 +106,14 @@ placeGrid.addEventListener('click', event => {
 });
 
 function currentItems() {
-  const query = searchInput.value.toLowerCase();
-  const matching = query ? places.filter(place => place.name.toLowerCase().includes(query) || place.desc.toLowerCase().includes(query) || place.keywords.some(keyword => query.includes(keyword))) : places;
+  const query = searchInput.value.toLowerCase().trim();
+  const matching = query ? places.filter(place =>
+    place.name.toLowerCase().includes(query) ||
+    place.desc.toLowerCase().includes(query) ||
+    place.label.toLowerCase().includes(query) ||
+    place.type.toLowerCase().includes(query) ||
+    place.keywords.some(keyword => keyword.toLowerCase().includes(query) || query.includes(keyword.toLowerCase()))
+  ) : places;
   return activeFilter === 'all' ? matching : matching.filter(place => place.type === activeFilter);
 }
 
